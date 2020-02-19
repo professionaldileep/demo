@@ -21,7 +21,7 @@ public boolean yesh(int[] a,int b) {
 }
 
 	public void m1() {
-		Arrays.asList(1,2,3,4).forEach(System.out::println);
+		Arrays.asList(1,2,3,4).forEach(System.out::print);
 		
 	}
 		public static void main(String[] args) {
