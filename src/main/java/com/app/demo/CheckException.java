@@ -21,7 +21,7 @@ public boolean yesh(int[] a,int b) {
 }
 
 	public void m1() {
-		Arrays.asList(1,2,3,4);
+		Arrays.asList(1,2,3,4).forEach(System.out::println);
 		
 	}
 		public static void main(String[] args) {
@@ -33,6 +33,7 @@ public boolean yesh(int[] a,int b) {
 			for(Map.Entry<String, Integer> a:map.entrySet()) {
 				System.out.println(a.getKey()+a.getValue());
 			}
+			
 			map.forEach((k,v)->System.out.println(k+v));
 			CheckException c=new CheckException();
 			c.m1();
